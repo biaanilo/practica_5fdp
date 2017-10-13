@@ -1,0 +1,36 @@
+INICIO
+     número[3] : ENTERO
+       número[0] : = 9; 
+       número[1] : = 7; 
+       número[2] : = 2; 
+Inicio
+     ESCRIBIR: “Este programa incrementa en 1 un número de 3 dígitos”
+     ESCRIBIR: “Dame el primer digito de tu número” 
+     LEER: número[0]
+     ESCRIBIR: “Dame el segundo digito de tu número” 
+     LEER: número[1] 
+     ESCRIBIR: “Dame el tercer digito de tu número” 
+     LEER: número[2]
+   SI  número[2]=9  y  número[1]=9 
+ENTONCES
+       número[2]=0 
+       número[1]=0  y  a+1
+     ESCRIBIR: “Resultado”
+       [a + 1, número[1]=0, número[2]=0]
+   SI  número[1]=9   
+ENTONCES
+       número[2]=0 
+       número[1]+1  
+       número[2]=0
+     ESCRIBIR: “Resultado”
+       [número[0], número[2]+1, número[2]=0]
+   SI número[2]<>9
+ENTONCES
+       número[2]+1
+     ESCRIBIR: "Resultado"
+       [número[0], número[1], número[2]+1]
+FIN
+  FIN
+                 
+                 
+
